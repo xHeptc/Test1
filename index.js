@@ -37,7 +37,7 @@ function isLeapYear(yearInput) {
     return false
 }
 
-console.log(
+alert(
     isLeapYear(year)
     ? `${year} is a leap year!`
     : `${year} is not a leap year!`
