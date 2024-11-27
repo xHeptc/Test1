@@ -26,6 +26,6 @@ let car = {
 
 console.log(
     `Car make: ${car.getInfo("make")}\n`,
-    `Car make: ${car.getInfo("model")}\n`,
-    `Car make: ${car.getInfo("year")}`,
+    `Car model: ${car.getInfo("model")}\n`,
+    `Car year: ${car.getInfo("year")}`,
 )
