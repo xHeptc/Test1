@@ -10,11 +10,7 @@ console.log(sum)
 let array = [5, 8, -5, 12, 4]
 
 array.sort((a, b) => {
-    if (a > b) {
-        return 1
-    }
-    
-    return -1
+    return (a > b) ? 1 : -1
 })
 
 let highest = array[array.length - 1]
